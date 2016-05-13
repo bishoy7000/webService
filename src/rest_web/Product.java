@@ -31,7 +31,7 @@ import com.mysql.jdbc.jdbc2.optional.MysqlDataSource;
 public class Product {
 	private String db_url="jdbc:mysql://localhost:3306/products_db";
 	private String db_user="root";
-	public String db_password="";
+	private String db_password="";
 
 
 	  @Path("/select_products")
